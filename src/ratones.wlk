@@ -2,8 +2,9 @@ object jerry {
 	var peso = 3
 	var posicion = 10
 	
+	method peso() = peso
 	method posicion() = posicion
-	method velocidad() = 10-peso
+	method velocidad() = 10 - self.peso()
 }
 
 object robotRaton {
